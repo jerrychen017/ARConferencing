@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Launcher.unity
     guid: 64a18a38802c742198f48af484db9f90
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Viewer Client.unity
     guid: 7bbdd93da0e1f4074b8220918cfc8f5b
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Tracking Client.unity
     guid: 8eca66c75c7d54713bae8d667e181937
   m_configObjects:

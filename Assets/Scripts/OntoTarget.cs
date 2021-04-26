@@ -18,8 +18,9 @@ namespace Com.ARConferencing.Client
                 Avatar = ParticipantManager.LocalPlayerInstance;
             }
             // Avatar.transform.position = Target.transform.position;
-            Avatar.transform.position = Target.transform.position + new Vector3(-0.8f, -0.2f, 0);
+            Avatar.transform.position = Target.transform.position + new Vector3(-0.5f, 0, -0.2f);
             Avatar.transform.rotation = Target.transform.rotation;
+            Avatar.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
         }
     }
 }

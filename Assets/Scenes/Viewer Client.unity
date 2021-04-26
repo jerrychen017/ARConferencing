@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,6 +123,35 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!21 &189604734
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: '3d-target.Left_scaledMaterial
+
+    -14382'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 680c9cb5c83b46e981f642c5cc9baab1, type: 3}
+        m_Scale: {x: -1, y: -1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+  m_BuildTextureStacks: []
 --- !u!43 &412562010
 Mesh:
   m_ObjectHideFlags: 0
@@ -397,16 +426,16 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6723128748419118613, guid: 8c9a9fd8f81d14aceae953c47158cea4, type: 3}
   m_PrefabInstance: {fileID: 426005786}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &502948080
+--- !u!21 &495012194
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: '3d-target.Top_scaledMaterial
+  m_Name: '3d-target.Front_scaledMaterial
 
-    -1080556'
+    -14382'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -419,7 +448,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 9a06fa39f3f94243a853def261d8ed12, type: 3}
+        m_Texture: {fileID: 2800000, guid: fb167fe4016e4a45bcc76779f4320e6c, type: 3}
         m_Scale: {x: -1, y: -1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -492,6 +521,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &703627586
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: '3d-target.Right_scaledMaterial
+
+    -14382'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 548c0ac725104c728d9e32ed41ce8720, type: 3}
+        m_Scale: {x: -1, y: -1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -590,35 +648,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2249094913026483642, guid: 7b48096b4502b4da09cb964e4bd370a5, type: 3}
   m_PrefabInstance: {fileID: 2249094912273446633}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &855437771
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: '3d-target.Left_scaledMaterial
-
-    -1080556'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 680c9cb5c83b46e981f642c5cc9baab1, type: 3}
-        m_Scale: {x: -1, y: -1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &890583808
 GameObject:
   m_ObjectHideFlags: 0
@@ -955,35 +984,6 @@ LightingSettings:
   m_PVRFilteringAtrousPositionSigmaDirect: 0.5
   m_PVRFilteringAtrousPositionSigmaIndirect: 2
   m_PVRFilteringAtrousPositionSigmaAO: 1
---- !u!21 &1244512128
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: '3d-target.Bottom_scaledMaterial
-
-    -1080556'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 6b7cf99afa944adb8f863d7987a0a51e, type: 3}
-        m_Scale: {x: -1, y: -1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1001 &1314379747
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1265,16 +1265,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e8fbc8868ed4a84a6f3e9ebff75c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!21 &1682942198
+--- !u!21 &1742022872
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: '3d-target.Right_scaledMaterial
+  m_Name: '3d-target.Back_scaledMaterial
 
-    -1080556'
+    -14382'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -1287,7 +1287,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 548c0ac725104c728d9e32ed41ce8720, type: 3}
+        m_Texture: {fileID: 2800000, guid: db8fca6fd50248dfb9090a21b3699b69, type: 3}
         m_Scale: {x: -1, y: -1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -1368,16 +1368,16 @@ Material:
     m_Colors:
     - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
   m_BuildTextureStacks: []
---- !u!21 &1879706535
+--- !u!21 &1880630638
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: '3d-target.Front_scaledMaterial
+  m_Name: '3d-target.Top_scaledMaterial
 
-    -1080556'
+    -14382'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -1390,23 +1390,23 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: fb167fe4016e4a45bcc76779f4320e6c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9a06fa39f3f94243a853def261d8ed12, type: 3}
         m_Scale: {x: -1, y: -1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
     m_Colors:
     - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
   m_BuildTextureStacks: []
---- !u!21 &1896020099
+--- !u!21 &1939527098
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: '3d-target.Back_scaledMaterial
+  m_Name: '3d-target.Bottom_scaledMaterial
 
-    -1080556'
+    -14382'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -1419,7 +1419,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: db8fca6fd50248dfb9090a21b3699b69, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6b7cf99afa944adb8f863d7987a0a51e, type: 3}
         m_Scale: {x: -1, y: -1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -1443,11 +1443,19 @@ PrefabInstance:
       objectReference: {fileID: 890583812}
     - target: {fileID: 701851589424595458, guid: 7b48096b4502b4da09cb964e4bd370a5, type: 3}
       propertyPath: m_LocalScale.x
-      value: 15
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 701851589424595458, guid: 7b48096b4502b4da09cb964e4bd370a5, type: 3}
       propertyPath: m_LocalScale.z
-      value: 15
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 701851589424595458, guid: 7b48096b4502b4da09cb964e4bd370a5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.398
+      objectReference: {fileID: 0}
+    - target: {fileID: 701851589424595458, guid: 7b48096b4502b4da09cb964e4bd370a5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.65
       objectReference: {fileID: 0}
     - target: {fileID: 2249094912148945472, guid: 7b48096b4502b4da09cb964e4bd370a5, type: 3}
       propertyPath: m_Mesh
@@ -1456,7 +1464,7 @@ PrefabInstance:
     - target: {fileID: 2249094912148945475, guid: 7b48096b4502b4da09cb964e4bd370a5, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 502948080}
+      objectReference: {fileID: 1880630638}
     - target: {fileID: 2249094912262675380, guid: 7b48096b4502b4da09cb964e4bd370a5, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -1464,7 +1472,7 @@ PrefabInstance:
     - target: {fileID: 2249094912262675383, guid: 7b48096b4502b4da09cb964e4bd370a5, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 1879706535}
+      objectReference: {fileID: 495012194}
     - target: {fileID: 2249094912495178570, guid: 7b48096b4502b4da09cb964e4bd370a5, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -1472,7 +1480,7 @@ PrefabInstance:
     - target: {fileID: 2249094912495178573, guid: 7b48096b4502b4da09cb964e4bd370a5, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 855437771}
+      objectReference: {fileID: 189604734}
     - target: {fileID: 2249094913026483642, guid: 7b48096b4502b4da09cb964e4bd370a5, type: 3}
       propertyPath: m_Name
       value: MultiTarget
@@ -1528,11 +1536,11 @@ PrefabInstance:
     - target: {fileID: 2249094913251042517, guid: 7b48096b4502b4da09cb964e4bd370a5, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 1896020099}
+      objectReference: {fileID: 1742022872}
     - target: {fileID: 2249094913429713362, guid: 7b48096b4502b4da09cb964e4bd370a5, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 1682942198}
+      objectReference: {fileID: 703627586}
     - target: {fileID: 2249094913429713363, guid: 7b48096b4502b4da09cb964e4bd370a5, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -1540,7 +1548,7 @@ PrefabInstance:
     - target: {fileID: 2249094913963106362, guid: 7b48096b4502b4da09cb964e4bd370a5, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 1244512128}
+      objectReference: {fileID: 1939527098}
     - target: {fileID: 2249094913963106363, guid: 7b48096b4502b4da09cb964e4bd370a5, type: 3}
       propertyPath: m_Mesh
       value: 
