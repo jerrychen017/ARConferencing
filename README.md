@@ -22,8 +22,8 @@ You can enter your name and join the room. You can choose to use your current de
 * [Viewer Client](imgs/viewer-client.png): View the avatar and presentation slides through an AR camera. The Avatar and presentation slides are positioned with respect to the location and orientation of the AR marker. So it's important to display the AR marker in front of the camera. 
 
 ## How to Run
-1. Build Unity project for iOS, then use `xcode` to deploy it to your iOS device. Note: the iOS device must have an A12 chip or above since we are using ARKit4 framework in this project.
-2. Build and deploy the Unity project for your device of choice. If you choose to run on a PC or laptop, you can simply run it in Unity play mode. 
+1. Build Unity project for iOS, then use `xcode` to deploy it to your iOS device. When you build, make sure you've selected scenes in the following order: `Launcher`, `Tracking Client Scene`, `Viewer Client Scene`. Note: the iOS device must have an A12 chip or above since we are using ARKit4 framework in this project.
+2. Build and deploy the Unity project for your device of choice. If you choose to run on a PC or laptop, you can simply run it in Unity play mode. When you build, make sure you've selected scenes in the following order: `Launcher`, `Viewer Client Scene`, `Tracking Client Scene`.
 3. Open the app on your viewer device. Enter your name and click on `Viewer Client`. 
 4. Open the app on your tracking device (iOS). Enter your name and click on `Tracking Client`. 
 5. Place your multi-target AR marker in front of your viewer device. 
