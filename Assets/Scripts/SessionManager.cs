@@ -33,41 +33,6 @@ namespace Com.ARConferencing.Client
 
         #endregion
 
-        #region MonoBehaviour CallBacks
-
-        void Start() 
-        {
-            // if (playerPrefab == null)
-            // {
-            //     print("SessionManager: prefab is null");
-            //     Debug.LogError("<Color=Red><a>Missing</a></Color> playerPrefab Reference. Please set it up in GameObject 'Game Manager'",this);
-            // }
-            // else
-            // {
-            //     Debug.LogFormat("We are Instantiating LocalPlayer from {0}", Application.loadedLevelName);
-            //     // we're in a room. spawn a character for the local player. it gets synced by using PhotonNetwork.Instantiate
-
-
-            //     PhotonNetwork.Instantiate(this.playerPrefab.name, new Vector3(0f, 0f, 5f), Quaternion.identity, 0);
-            //     print("SessionManager: instantiated on network");
-            //     // if (ParticipantManager.LocalPlayerInstance == null)
-            //     // {
-            //     //     Debug.LogFormat("We are Instantiating LocalPlayer from {0}", SceneManagerHelper.ActiveSceneName);
-            //     //     // we're in a room. spawn a character for the local player. it gets synced by using PhotonNetwork.Instantiate
-            //     //     PhotonNetwork.Instantiate(this.playerPrefab.name, new Vector3(0f, 5f, 0f), Quaternion.identity, 0);
-            //     //     print("SessionManager: instantiated on network");
-            //     // }
-            //     // else
-            //     // {
-            //     //     print("SessionManager: didn't instantiate");
-            //     //     Debug.LogFormat("Ignoring scene load for {0}", SceneManagerHelper.ActiveSceneName);
-            //     // }   
-            //     // PhotonNetwork.Instantiate(this.playerPrefab.name, new Vector3(0f,5f,0f), Quaternion.identity, 0);
-            // }
-        }
-
-        #endregion
-
 
         #region Public Methods
 
@@ -93,11 +58,11 @@ namespace Com.ARConferencing.Client
             // // Create a temporary reference to the current scene.
             // Scene currentScene = SceneManager.GetActiveScene ();
  
-            // // Retrieve the name of this scene.
+            // Retrieve the name of this scene.
             // string sceneName = currentScene.name;
-            // Debug.LogFormat("!! Scenename is  " + sceneName);
+            // Debug.LogFormat("Current Scene Name is  " + sceneName);
             PhotonNetwork.LoadLevel(1);
-            // SceneManager.LoadScene(1);
+            
             // if (sceneName == "Viewer Client") {
             //     PhotonNetwork.LoadLevel(2);
             // } else {
@@ -106,12 +71,9 @@ namespace Com.ARConferencing.Client
             
         }
 
-
         #endregion
-
+    
         #region Photon Callbacks
-
-
         public override void OnPlayerEnteredRoom(Player other)
         {
             Debug.LogFormat("OnPlayerEnteredRoom() {0}", other.NickName); // not seen if you're the player connecting
@@ -125,7 +87,6 @@ namespace Com.ARConferencing.Client
             }
         }
 
-
         public override void OnPlayerLeftRoom(Player other)
         {
             Debug.LogFormat("OnPlayerLeftRoom() {0}", other.NickName); // seen when other disconnects
@@ -138,7 +99,6 @@ namespace Com.ARConferencing.Client
                 LoadArena();
             }
         }
-
 
         #endregion
 
