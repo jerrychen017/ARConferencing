@@ -12,7 +12,8 @@ public class slideshow : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        mImg = new string[] { "Slide1", "Slide2", "Slide3" };
+        // mImg = new string[] { "Slide1", "Slide2", "Slide3" };
+        mImg = new string[] { "future-work" };
     }
 
     public void next()
